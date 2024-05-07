@@ -1,0 +1,2 @@
+2023-11-30 17:57:32,551 ERROR scheduler Skipped queueing erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts because it was found in queue for tasmac.com
+2024-04-21 14:54:39,077 ERROR scheduler Skipped queueing erpnext.stock.reorder_item.reorder_item because it was found in queue for tasmac.com

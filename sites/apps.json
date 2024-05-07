@@ -1,0 +1,74 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "14.55.0"
+    },
+    "erpnext": {
+        "resolution": {
+            "commit_hash": "fb2ca3e1722481bb3bc869c03a76616dabc759ed",
+            "branch": "version-14"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "14.48.0"
+    },
+    "hotel_booking": {
+        "resolution": {
+            "commit_hash": "97080f91ead2448f5e5ba98a1457048f0c5e5276",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "hrms": {
+        "resolution": {
+            "commit_hash": "17e1200c8379373183b4ac7bf69b18f14d9090bd",
+            "branch": "version-14"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "14.16.1"
+    },
+    "lms": {
+        "resolution": {
+            "commit_hash": "de60fbb25a44965728118feed9247d31e5c73a3e",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "1.0.0"
+    },
+    "library_management_system": {
+        "resolution": {
+            "commit_hash": "3828c7fa6c20344f2febdd37ec2a6be8e29eefce",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    },
+    "vivid": {
+        "resolution": {
+            "commit_hash": "b79c989dab0fdf7567af187dc4e51bcc8de5a8ab",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.1"
+    },
+    "business_theme_v14": {
+        "resolution": {
+            "commit_hash": "d38c8d5f894913d3d7c7a611ae34b75efba651a8",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 8,
+        "version": "0.0.1"
+    }
+}

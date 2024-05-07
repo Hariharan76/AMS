@@ -1,0 +1,363 @@
+2024-04-23 12:12:35,830 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVIVID ASSERT` ADD COLUMN `list_of_accessories` text
+2024-04-23 12:35:49,097 WARNING database DDL Query made to DB:
+create sequence if not exists vivid_assert_id_seq nocache nocycle
+2024-04-23 12:35:49,326 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVIVID ASSERT` MODIFY `name` bigint
+2024-04-23 12:35:49,531 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVIVID ASSERT` DROP INDEX `employee_name`
+2024-04-23 12:36:14,267 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVIVID ASSERT` MODIFY `name` varchar(140)
+2024-04-23 12:36:14,464 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVIVID ASSERT` ADD UNIQUE INDEX IF NOT EXISTS employee_id (`employee_id`)
+2024-04-23 14:19:48,561 WARNING database DDL Query made to DB:
+create table `tabModel` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`model` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-23 14:33:38,397 WARNING database DDL Query made to DB:
+create table `tabOS` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`os_version` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-23 14:34:59,709 WARNING database DDL Query made to DB:
+create table `tabRAM` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`ram` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-23 14:57:48,496 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVendor List` ADD COLUMN `item` varchar(140) unique, ADD COLUMN `vendor` varchar(140), ADD COLUMN `model` varchar(140), ADD COLUMN `serial_nmber` varchar(140), ADD COLUMN `year_of_purchase` varchar(140), ADD COLUMN `working_status` varchar(140), ADD COLUMN `os` varchar(140), ADD COLUMN `ram_capacity` varchar(140), ADD COLUMN `processor` varchar(140), ADD COLUMN `length_cable` varchar(140), ADD COLUMN `remarks` varchar(140), ADD COLUMN `from_date` date, ADD COLUMN `to_date` date, ADD COLUMN `duration` date
+2024-04-23 14:57:48,506 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVendor List` ADD UNIQUE INDEX IF NOT EXISTS item (`item`)
+2024-04-23 14:59:14,729 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVendor List` MODIFY `remarks` text
+2024-04-23 15:23:12,250 WARNING database DDL Query made to DB:
+ALTER TABLE `tabOS` ADD UNIQUE INDEX IF NOT EXISTS os_version (`os_version`)
+2024-04-23 15:24:12,055 WARNING database DDL Query made to DB:
+ALTER TABLE `tabRAM` ADD UNIQUE INDEX IF NOT EXISTS ram (`ram`)
+2024-04-23 16:08:10,438 WARNING database DDL Query made to DB:
+create table `tabMaintaince` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`item` varchar(140),
+`make` varchar(140),
+`model` varchar(140),
+`serial_number` varchar(140),
+`year_of_purchase` int(11) not null default 0,
+`working_status` varchar(140),
+`os` varchar(140),
+`ram_capacity` varchar(140),
+`processor` varchar(140),
+`length_cable` varchar(140),
+`remarks` text,
+`from_date` varchar(140),
+`to_date` varchar(140),
+`duration` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-23 16:08:33,353 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMaintaince` ADD UNIQUE INDEX IF NOT EXISTS item (`item`)
+2024-04-23 16:37:23,044 WARNING database DDL Query made to DB:
+ALTER TABLE `tabModel` ADD UNIQUE INDEX IF NOT EXISTS model (`model`)
+2024-04-24 15:55:53,778 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMaintaince` MODIFY `to_date` date, MODIFY `from_date` date
+2024-04-25 13:06:21,345 WARNING database DDL Query made to DB:
+create table `tabManagement` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`items` varchar(140),
+`make` varchar(140),
+`model` varchar(140),
+`serial_number` varchar(140),
+`year_of_purchase` int(11) not null default 0,
+`working_status` varchar(140),
+`os` varchar(140),
+`ram_capacity` varchar(140),
+`length_of_cable` varchar(140),
+`place` varchar(140),
+`from_date` date,
+`to_date` date,
+`duration` varchar(140),
+`remarks` text,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-25 14:09:07,791 WARNING database DDL Query made to DB:
+create table `tabAMS Maintaince` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`items` varchar(140),
+`make` varchar(140),
+`model` varchar(140),
+`serial_number` varchar(140),
+`place` varchar(140),
+`year_of_purchase` varchar(140),
+`working_status` varchar(140),
+`os` varchar(140),
+`ram` varchar(140),
+`length_cable` varchar(140),
+`remarks` text,
+`from_date` varchar(140),
+`to_date` varchar(140),
+`duration` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-25 14:13:24,237 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAMS Maintaince` ADD COLUMN `custom_location` varchar(140)
+2024-04-25 14:28:01,385 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAMS Maintaince` ADD COLUMN `item` varchar(140), ADD COLUMN `work_status` varchar(140)
+2024-04-25 14:28:01,459 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAMS Maintaince` MODIFY `remarks` varchar(140), MODIFY `year_of_purchase` int(11) not null default 0
+2024-04-25 14:31:42,733 WARNING database DDL Query made to DB:
+RENAME TABLE `tabAMS Maintaince` TO `tabAMS Management`
+2024-04-25 14:45:25,449 WARNING database DDL Query made to DB:
+create table `tabDATA` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`item` varchar(140),
+`make` varchar(140),
+`model` varchar(140),
+`serial_number` varchar(140),
+`year_of_purchase` int(11) not null default 0,
+`work_status` varchar(140),
+`os` varchar(140),
+`ram_capacity` varchar(140),
+`place` varchar(140),
+`length_of_cable` varchar(140),
+`remarks` text,
+`from_date` date,
+`to_date` date,
+`duration` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-25 15:16:49,141 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVIVID ASSERT` ADD COLUMN `demo` varchar(140)
+2024-04-25 15:50:38,158 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDATA` MODIFY `work_status` varchar(1)
+2024-04-25 16:19:43,249 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDATA` ADD COLUMN `ram` varchar(140), ADD COLUMN `length_cable` varchar(140)
+2024-04-25 16:19:43,354 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDATA` MODIFY `to_date` varchar(140)
+2024-04-25 16:20:20,818 WARNING database DDL Query made to DB:
+create table `tabDATA1` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`item` varchar(140),
+`make` varchar(140),
+`model` varchar(140),
+`serial_number` varchar(140),
+`year_of_purchase` int(11) not null default 0,
+`os` varchar(140),
+`ram` varchar(140),
+`work_status` varchar(140),
+`place` varchar(140),
+`length_cable` varchar(140),
+`remarks` text,
+`from_date` date,
+`to_date` varchar(140),
+`duration` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-25 16:38:59,265 WARNING database DDL Query made to DB:
+create table `tabManagement DATA` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`item` varchar(140),
+`make` varchar(140),
+`model` varchar(140),
+`serial_number` varchar(140),
+`year_of_purchase` int(11) not null default 0,
+`work_status` varchar(140),
+`os` varchar(140),
+`ram` varchar(140),
+`place` varchar(140),
+`length_cable` varchar(140),
+`remarks` text,
+`from_date` date,
+`to_date` date,
+`duration` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-25 16:50:24,408 WARNING database DDL Query made to DB:
+RENAME TABLE `tabManagement DATA` TO `tabManagement Data`
+2024-04-26 10:50:17,800 WARNING database DDL Query made to DB:
+create table `tabMaintaince Data` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`item` varchar(140),
+`make` varchar(140),
+`serial_number` varchar(140),
+`model` varchar(140),
+`year_of_purchase` int(11) not null default 0,
+`os` varchar(140),
+`status` varchar(140),
+`ram` varchar(140),
+`place` varchar(140),
+`length_cable` varchar(140),
+`remarks` text,
+`from_date` date,
+`to_date` date,
+`duration` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-29 10:42:30,528 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, ADD UNIQUE INDEX IF NOT EXISTS item_name (`item_name`)
+2024-04-29 11:50:12,984 WARNING database DDL Query made to DB:
+create table `tabDemo` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`from_date` date,
+`to_date` date,
+`duration` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-04-30 16:50:29,368 WARNING database DDL Query made to DB:
+ALTER TABLE `tabMaintaince Data` ADD COLUMN `custom_power_back_up` varchar(140)

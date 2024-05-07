@@ -1,0 +1,342 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231117_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-17 12:00:13.170164
+Config  : ./tasmac.com/private/backups/20231117_120003-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231117_120003-tasmac_com-database.sql.gz         1.2MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231117_180003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-17 18:00:26.125347
+Config  : ./tasmac.com/private/backups/20231117_180003-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231117_180003-tasmac_com-database.sql.gz         1.2MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231118_120008-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-18 12:00:30.171166
+Config  : ./tasmac.com/private/backups/20231118_120008-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231118_120008-tasmac_com-database.sql.gz         1.2MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231120_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-20 12:00:11.869619
+Config  : ./tasmac.com/private/backups/20231120_120003-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231120_120003-tasmac_com-database.sql.gz         1.3MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231123_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-23 12:00:11.815190
+Config  : ./tasmac.com/private/backups/20231123_120003-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231123_120003-tasmac_com-database.sql.gz         1.3MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231127_180002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-27 18:00:09.668985
+Config  : ./tasmac.com/private/backups/20231127_180002-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231127_180002-tasmac_com-database.sql.gz         1.3MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231128_120004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-28 12:00:16.266661
+Config  : ./tasmac.com/private/backups/20231128_120004-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231128_120004-tasmac_com-database.sql.gz         1.4MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231129_120005-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-29 12:00:25.646861
+Config  : ./tasmac.com/private/backups/20231129_120005-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231129_120005-tasmac_com-database.sql.gz         1.5MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231130_120002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-11-30 12:00:12.261819
+Config  : ./tasmac.com/private/backups/20231130_120002-tasmac_com-site_config_backup.json 158.0B
+Database: ./tasmac.com/private/backups/20231130_120002-tasmac_com-database.sql.gz         1.6MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231207_120005-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-07 12:00:28.326511
+Config  : ./tasmac.com/private/backups/20231207_120005-tasmac_com-site_config_backup.json 225.0B
+Database: ./tasmac.com/private/backups/20231207_120005-tasmac_com-database.sql.gz         1.7MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231214_120006-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-14 12:00:32.022798
+Config  : ./tasmac.com/private/backups/20231214_120006-tasmac_com-site_config_backup.json 225.0B
+Database: ./tasmac.com/private/backups/20231214_120006-tasmac_com-database.sql.gz         1.7MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231221_120005-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-21 12:00:19.935333
+Config  : ./tasmac.com/private/backups/20231221_120005-tasmac_com-site_config_backup.json 225.0B
+Database: ./tasmac.com/private/backups/20231221_120005-tasmac_com-database.sql.gz         1.7MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231226_120008-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-26 12:00:39.497260
+Config  : ./tasmac.com/private/backups/20231226_120008-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20231226_120008-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231226_180007-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-26 18:00:31.402091
+Config  : ./tasmac.com/private/backups/20231226_180007-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20231226_180007-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231227_120004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-27 12:00:17.002052
+Config  : ./tasmac.com/private/backups/20231227_120004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20231227_120004-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231227_180004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-27 18:00:16.420155
+Config  : ./tasmac.com/private/backups/20231227_180004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20231227_180004-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231228_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-28 12:00:11.242852
+Config  : ./tasmac.com/private/backups/20231228_120003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20231228_120003-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231228_180002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-28 18:00:09.970350
+Config  : ./tasmac.com/private/backups/20231228_180002-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20231228_180002-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231229_180003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-29 18:00:11.555958
+Config  : ./tasmac.com/private/backups/20231229_180003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20231229_180003-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20231230_120002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2023-12-30 12:00:07.008300
+Config  : ./tasmac.com/private/backups/20231230_120002-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20231230_120002-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240102_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-02 12:00:09.757730
+Config  : ./tasmac.com/private/backups/20240102_120003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240102_120003-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240102_180003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-02 18:00:14.574434
+Config  : ./tasmac.com/private/backups/20240102_180003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240102_180003-tasmac_com-database.sql.gz         1.8MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240103_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-03 12:00:14.374357
+Config  : ./tasmac.com/private/backups/20240103_120003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240103_120003-tasmac_com-database.sql.gz         1.9MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240103_180006-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-03 18:00:29.608927
+Config  : ./tasmac.com/private/backups/20240103_180006-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240103_180006-tasmac_com-database.sql.gz         1.9MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240104_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-04 12:00:12.131892
+Config  : ./tasmac.com/private/backups/20240104_120003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240104_120003-tasmac_com-database.sql.gz         1.9MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240104_180303-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-04 18:03:13.816520
+Config  : ./tasmac.com/private/backups/20240104_180303-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240104_180303-tasmac_com-database.sql.gz         1.9MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240105_180003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-05 18:00:08.646995
+Config  : ./tasmac.com/private/backups/20240105_180003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240105_180003-tasmac_com-database.sql.gz         1.9MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240108_120004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-08 12:00:27.377670
+Config  : ./tasmac.com/private/backups/20240108_120004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240108_120004-tasmac_com-database.sql.gz         1.9MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240108_180002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-08 18:00:11.255469
+Config  : ./tasmac.com/private/backups/20240108_180002-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240108_180002-tasmac_com-database.sql.gz         1.9MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240109_120004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-09 12:00:25.566774
+Config  : ./tasmac.com/private/backups/20240109_120004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240109_120004-tasmac_com-database.sql.gz         1.9MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240110_120004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-10 12:00:23.544418
+Config  : ./tasmac.com/private/backups/20240110_120004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240110_120004-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240110_180003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-10 18:00:15.419222
+Config  : ./tasmac.com/private/backups/20240110_180003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240110_180003-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240111_120002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-11 12:00:09.143617
+Config  : ./tasmac.com/private/backups/20240111_120002-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240111_120002-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240111_180107-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-11 18:01:27.040127
+Config  : ./tasmac.com/private/backups/20240111_180107-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240111_180107-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240118_120005-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-18 12:00:26.035227
+Config  : ./tasmac.com/private/backups/20240118_120005-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240118_120005-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240119_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-19 12:00:10.526392
+Config  : ./tasmac.com/private/backups/20240119_120003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240119_120003-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240125_180003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-25 18:00:13.329204
+Config  : ./tasmac.com/private/backups/20240125_180003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240125_180003-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240129_120006-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-29 12:00:23.972156
+Config  : ./tasmac.com/private/backups/20240129_120006-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240129_120006-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240130_120002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-01-30 12:00:10.436905
+Config  : ./tasmac.com/private/backups/20240130_120002-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240130_120002-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240205_120004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-02-05 12:00:18.764068
+Config  : ./tasmac.com/private/backups/20240205_120004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240205_120004-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240206_120005-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-02-06 12:00:30.073972
+Config  : ./tasmac.com/private/backups/20240206_120005-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240206_120005-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240212_120007-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-02-12 12:00:21.984375
+Config  : ./tasmac.com/private/backups/20240212_120007-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240212_120007-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240212_180004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-02-12 18:00:15.689381
+Config  : ./tasmac.com/private/backups/20240212_180004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240212_180004-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240308_120005-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-03-08 12:00:29.218827
+Config  : ./tasmac.com/private/backups/20240308_120005-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240308_120005-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240312_120009-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-03-12 12:00:33.268366
+Config  : ./tasmac.com/private/backups/20240312_120009-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240312_120009-tasmac_com-database.sql.gz         2.0MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240422_120202-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-04-22 12:02:18.519857
+Config  : ./tasmac.com/private/backups/20240422_120202-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240422_120202-tasmac_com-database.sql.gz         2.1MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240423_120004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-04-23 12:00:20.008485
+Config  : ./tasmac.com/private/backups/20240423_120004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240423_120004-tasmac_com-database.sql.gz         2.2MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240424_180009-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-04-24 18:00:32.164784
+Config  : ./tasmac.com/private/backups/20240424_180009-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240424_180009-tasmac_com-database.sql.gz         2.2MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240425_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-04-25 12:00:10.030990
+Config  : ./tasmac.com/private/backups/20240425_120003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240425_120003-tasmac_com-database.sql.gz         2.3MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240426_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-04-26 12:00:14.080849
+Config  : ./tasmac.com/private/backups/20240426_120003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240426_120003-tasmac_com-database.sql.gz         2.3MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240429_120002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-04-29 12:00:06.919955
+Config  : ./tasmac.com/private/backups/20240429_120002-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240429_120002-tasmac_com-database.sql.gz         2.4MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240430_120003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-04-30 12:00:13.684838
+Config  : ./tasmac.com/private/backups/20240430_120003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240430_120003-tasmac_com-database.sql.gz         2.4MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240430_180003-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-04-30 18:00:16.033548
+Config  : ./tasmac.com/private/backups/20240430_180003-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240430_180003-tasmac_com-database.sql.gz         2.4MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240501_180002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-05-01 18:00:13.338987
+Config  : ./tasmac.com/private/backups/20240501_180002-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240501_180002-tasmac_com-database.sql.gz         2.5MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240502_120002-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-05-02 12:00:11.473323
+Config  : ./tasmac.com/private/backups/20240502_120002-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240502_120002-tasmac_com-database.sql.gz         2.6MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240502_180005-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-05-02 18:00:25.406366
+Config  : ./tasmac.com/private/backups/20240502_180005-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240502_180005-tasmac_com-database.sql.gz         2.6MiB
+Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240503_120004-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-05-03 12:00:15.599483
+Config  : ./tasmac.com/private/backups/20240503_120004-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240503_120004-tasmac_com-database.sql.gz         2.9MiB
+Backup for Site tasmac.com has been successfully completed
