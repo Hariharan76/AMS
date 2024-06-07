@@ -352,3 +352,9 @@ Backup Summary for tasmac.com at 2024-06-06 18:01:46.501054
 Config  : ./tasmac.com/private/backups/20240606_180122-tasmac_com-site_config_backup.json 247.0B
 Database: ./tasmac.com/private/backups/20240606_180122-tasmac_com-database.sql.gz         2.8MiB
 Backup for Site tasmac.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _21f48775c732c395 -p********** _21f48775c732c395 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./tasmac.com/private/backups/20240607_120005-tasmac_com-database.sql.gz
+
+Backup Summary for tasmac.com at 2024-06-07 12:00:16.622685
+Config  : ./tasmac.com/private/backups/20240607_120005-tasmac_com-site_config_backup.json 247.0B
+Database: ./tasmac.com/private/backups/20240607_120005-tasmac_com-database.sql.gz         2.8MiB
+Backup for Site tasmac.com has been successfully completed

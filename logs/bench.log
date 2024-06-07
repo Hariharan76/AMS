@@ -1450,3 +1450,11 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2024-06-06 11:26:18,505 INFO /usr/local/bin/bench worker --queue default
 2024-06-06 12:00:02,454 INFO /usr/local/bin/bench --verbose --site all backup
 2024-06-06 18:01:21,705 INFO /usr/local/bin/bench --verbose --site all backup
+2024-06-07 11:17:32,930 INFO /usr/local/bin/bench start
+2024-06-07 11:17:36,752 INFO /usr/local/bin/bench watch
+2024-06-07 11:17:36,959 INFO /usr/local/bin/bench schedule
+2024-06-07 11:17:36,966 INFO /usr/local/bin/bench worker --queue short
+2024-06-07 11:17:37,181 INFO /usr/local/bin/bench worker --queue long
+2024-06-07 11:17:37,409 INFO /usr/local/bin/bench worker --queue default
+2024-06-07 11:17:37,418 INFO /usr/local/bin/bench serve --port 8000
+2024-06-07 12:00:02,511 INFO /usr/local/bin/bench --verbose --site all backup
